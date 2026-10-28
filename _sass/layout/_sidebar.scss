@@ -307,6 +307,12 @@
     white-space: nowrap;
   }
 
+  // The affiliation is a long sentence; without this the fixed sidebar
+  // (overflow-y: auto) turns into a horizontally scrolling element.
+  .author__desktop {
+    white-space: normal;
+  }
+
   a {
     display: block;
     margin-bottom: 5px;

@@ -45,14 +45,18 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
+{% if site.talks.size > 0 %}
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
+{% endif %}
 
+{% if site.teaching.size > 0 %}
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
+{% endif %}
