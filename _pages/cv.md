@@ -11,54 +11,48 @@ redirect_from:
 
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* B.Eng. in Software Engineering, School of Computer Science and Engineering, Hunan University of Information Technology, Changsha, China (expected graduation: June 2027)
 
-Work experience
+Research experience
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+* 2026–present: Undergraduate research on retrieval for local LLM systems
+  * School of Computer Science and Engineering, Hunan University of Information Technology
+  * Supervisor: Xin Xie
+  * Work: unified-candidate-space offline evaluation of hybrid (BM25 + BGE-M3) retrieval with RRF fusion and per-source quotas, in a desktop RAG stack
+  * Output: paper accepted at MLEIL 2026, with a public reproduction bundle
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming
+  * Python (analysis and pipelines)
+  * Rust (retrieval core)
+  * TypeScript, Kotlin (application front ends)
+* Systems
+  * SQLite FTS5 full-text search
+  * Local embedding inference and on-device deployment
+  * Tauri desktop applications
+* Evaluation methods
+  * Paired bootstrap interval estimates
+  * Multi-rater relevance labelling and inter-rater agreement
+  * Frozen-input reproducibility practice
+* Languages
+  * Chinese (native)
+  * English (technical reading and writing)
 
 Publications
 ======
   <ul>{% for post in site.publications reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
+
 Talks
 ======
   <ul>{% for post in site.talks reversed %}
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
-  
+
 Teaching
 ======
   <ul>{% for post in site.teaching reversed %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
