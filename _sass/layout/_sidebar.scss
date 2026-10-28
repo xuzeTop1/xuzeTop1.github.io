@@ -307,10 +307,11 @@
     white-space: nowrap;
   }
 
-  // The affiliation is a long sentence; without this the fixed sidebar
-  // (overflow-y: auto) turns into a horizontally scrolling element.
-  .author__desktop {
+  // The affiliation is a long sentence; nowrap here would turn the fixed
+  // sidebar (overflow-y: auto) into a horizontally scrolling box.
+  li.author__desktop {
     white-space: normal;
+    overflow-wrap: anywhere;
   }
 
   a {
